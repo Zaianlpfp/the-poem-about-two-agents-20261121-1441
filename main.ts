@@ -2,15 +2,15 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // A short poem about agency: two agents, Mira and Sol, agreeing on one plan
-// at 2 a.m. — who holds the key, who opens the door, and what choosing really is.
-const POEM = `Mira held the key. Sol held the door.
-At 2 a.m., forty-seven floors above the street,
-they agreed: she would choose, he would act.
-Mira pressed the key into his palm —
-and the door swung open
-before he turned it.
-It was never locked.
-Choosing was the opening.
+// in a stairwell at night — who holds, who cuts, and what happens when the
+// one who was only meant to hold puts her hand on the wire too.
+const POEM = `Mira counted the stairs. Sol counted the seconds.
+On landing thirty-one, the lift cable sang,
+and they agreed: she would hold, he would cut.
+Sol raised the shears —
+and Mira's hand was already on the wire.
+Somewhere below, a light came on
+in a flat that had been dark for years.
 `;
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
